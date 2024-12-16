@@ -22,7 +22,6 @@ second = 'Рамена мало было'
 
 print(list(map(lambda x, y: x == y, first, second)))
 
-#
 # Замыкание:
 #
 # Напишите функцию get_advanced_writer(file_name), принимающую название файла для записи.

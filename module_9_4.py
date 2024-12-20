@@ -64,6 +64,8 @@ def get_advanced_writer(file_name):
                     line = "{" + line + "}"
 
                 file.write(line + '\n')
+                # file.write(str(data) + '\n') - можно было просто написать str(data) и преобразовать любой тип данных
+                # в строку ;)
 
     return write_everything
 
